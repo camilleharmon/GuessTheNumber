@@ -7,15 +7,15 @@ function guessNumber(){
         
         if(guess > secretNum){
 
-            alert("Too HIGH");
+            alert("Too HIGH!");
             alert("Number: " + secretNum);
         }else if (guess < secretNum){
-
-            alert("Too LOW");
+                                       
+            alert("Too LOW!");
             alert("Number: " + secretNum);
         }else{
 
             alert("You got it!");
             alert("Number: " + secretNum);
         }
-    }
+    }                                   
